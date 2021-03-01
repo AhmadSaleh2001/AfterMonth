@@ -1,0 +1,51 @@
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-nav > li.active a,
+.navbar-inverse .navbar-nav>li>a:hover,
+.OurNewTemplate .Container h1 span,
+.OurNewTemplate .Container p span,
+#Testimonials h2,
+#Testimonials .carousel-inner .item .Text h3,
+.Plans .Container .Item h3,
+.OurTeam .Overlay .Container .Item .Icon .IC1:hover,
+.Footer .h1,
+.navbar-inverse .navbar-brand,
+.Plans .Container .Item h3,
+.Change .Container .Item ul li,
+.Change .Container .Item h2,
+.Change .Container i
+{
+    color: red;
+}
+
+
+.navbar-nav>li>.dropdown-menu li a:hover,
+#MyCarousel .carousel-indicators > li.active,
+.BackToTop
+{
+    
+    background-color :red;
+    
+}
+
+.OurCompany .Container .Item img:hover
+{
+    border :1px solid red;
+}
+
+.navbar-nav>li>.dropdown-menu
+{
+    border-top: 2px solid red;
+}
+
+#Testimonials .carousel-indicators > li.active
+{
+    
+    border:2px solid red;
+}
+
+
+
+.Footer .Item3 img
+{
+    border : 3px solid red;
+}

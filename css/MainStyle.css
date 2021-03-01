@@ -1,0 +1,560 @@
+/* Start Body */
+body
+{
+    overflow: hidden;
+}
+/* End Body */
+/* Start Navbar */
+.navbar-inverse .navbar-brand
+{
+    font : normal bold 25px "Arial";
+    padding-top: 10px;
+    
+}
+
+
+.navbar-inverse .navbar-brand span
+{
+    color:darkorange;
+}
+.navbar-collapse
+{
+    font : normal bold 20px "";
+    letter-spacing: 2px;
+    font-family: 'Yellowtail', cursive;
+    
+}
+
+
+.navbar-nav>li>.dropdown-menu
+{
+    left:0px;
+    right: auto;
+    
+}
+
+.navbar-nav>li>.dropdown-menu li a:hover
+{
+    
+    padding-left: 30px;
+    -webkit-transition:padding 0.5s ease;
+}
+
+/* End Navbar */
+
+
+
+/* Start Carousel */
+
+#MyCarousel .carousel-inner .Item img
+{
+    width: 100%;
+    background-size: cover;
+    
+}
+
+ #MyCarousel .carousel-inner .Item .carousel-caption
+{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 200px;
+}
+
+#MyCarousel .carousel-inner .Item .carousel-caption .Ovarlay
+{
+    background: rgba(1,1,1,0.5);
+    color : white;
+}
+
+#MyCarousel .carousel-inner .Item .carousel-caption .Ovarlay p
+{
+    font : normal bold 20px "Arial";
+    line-height: 40px;
+}
+
+/* End Carousel */
+
+/* Start Our New Template */
+
+.OurNewTemplate
+{
+    margin-top: 50px;
+    background-color: #888888;
+    min-height: 200px;
+}
+
+.OurNewTemplate .Container h1
+{
+    color : white;
+}
+
+
+
+.OurNewTemplate .Container p
+{
+    font : normal bold 20px "Arial";
+    color : azure;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+
+
+/* End Our New Template */
+
+/* Start Our Features */
+
+.OurFeatures
+{
+    margin-top: 50px;
+    min-height: 400px;
+}
+
+.OurFeatures .Item
+{
+    text-align: center;
+}
+
+.OurFeatures .Item span
+{
+    font-size: 40px;
+    
+}
+
+.OurFeatures .Item p
+{
+    font : normal bold 14px "Arial";
+    line-height: 18px;
+    color : #8e8e8e;
+}
+
+
+/* End Our Features */
+
+
+/* Start Testimonials */
+#Testimonials
+{
+    text-align: center;
+    margin-top: 50px;
+    min-height: 300px;
+}
+
+#Testimonials h2
+{
+    font : normal bold 30px "Arial";
+    font-size: 40px;
+}
+
+#Testimonials .carousel-inner .item 
+{
+    
+    font : normal bold 20px "Arial";
+}
+
+
+
+#Testimonials .carousel-indicators > li
+{
+    text-indent: 0px;
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+#Testimonials .carousel-indicators > li.active
+{
+    opacity: 1;
+
+}
+
+#Testimonials .carousel-indicators > li img
+{
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* End Testimonials */
+
+
+/* Start Plans */
+.Plans
+{
+    margin-top: 50px;
+    min-height: 500px;
+}
+
+.Plans .Container .Item
+{
+    
+    border-radius: 10px;
+    min-height: 400px;
+    width:270px;
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.Plans .Container .Item:nth-child(even)
+{
+    background-color: chartreuse;
+}
+
+.Plans .Container .Item:nth-child(odd)
+{
+    background-color:dodgerblue;;
+}
+
+.Plans .Container .Item h2
+{
+    padding: 0px;
+    margin: 0px;
+    font : normal bold 40px "Arial";
+}
+
+.Plans .Container .Item h2:nth-child(3)
+{
+    color : purple;
+}
+
+
+.Plans .Container .Item ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Plans .Container .Item ul li
+{
+    font : normal bold 25px "";
+    font-family: 'Yellowtail', cursive;
+    margin-bottom: 15px;
+}
+/* End Plans */
+
+/* Start Our Team */
+.OurTeam
+{
+    background-color: grey;
+    margin-top: 50px;
+    min-height: 50px;
+    background: url('../Images/Humans/Pic.jpg') no-repeat;
+    background-size: cover;
+}
+
+.OurTeam .Overlay
+{
+    background: rgba(1,1,1,0.5);
+    min-height: 100%;
+    color : white;
+}
+
+.OurTeam .Overlay .h1
+{
+    font-size: 50px;
+}
+
+.OurTeam .Overlay .Container .Item
+{
+    width:250px;
+    margin-left: 30px;
+    margin-top: 100px;
+    color : white;
+}
+
+.OurTeam .Overlay .Container .Item img
+{
+    border-radius: 50%;
+}
+
+.OurTeam .Overlay .Container  .Item h2
+{
+    font-size: 40px;
+}
+
+
+/* End Our Team */
+
+/* Start Our Skills */
+.OurSkills
+{
+    margin-top: 50px;
+    background-color: white;
+    min-height: 400px;
+}
+
+.OurSkills .Container h2
+{
+    font : normal bold 50px "";
+    font-family: 'Yellowtail', cursive;
+}
+
+.OurSkills .Container .Left .progress
+{
+    height: 50px;
+    
+}
+.OurSkills .Container .Left .progress > div
+{
+    
+    font : normal bold 30px "Arial";
+}
+
+.OurSkills .Container .Left .progress > div span
+{
+    line-height: 50px;
+}
+
+.OurSkills .Container .Right
+{
+    padding-left: 80px;
+}
+
+.OurSkills .Container .Right div
+{
+    font-size: 30px;
+}
+
+.OurSkills .Container .Right p
+{
+    font : normal bold 20px "";
+    font-family: monospace;
+}
+
+/* End Our Skills */
+
+
+/* Start Our Company */
+
+.OurCompany
+{
+    margin-top: 50px;
+    min-height: 250px;
+    background-color: gray;
+}
+
+.OurCompany .Container .Item
+{
+    margin-top: 50px;
+    
+}
+
+
+
+.OurCompany .Container .Item img
+{
+    opacity: 0.7;
+    width: 100%;
+}
+
+.OurCompany .Container .Item img:hover
+{
+    opacity: 1;
+}
+/* End Our Company */
+
+/* Start Footer */
+
+.Footer
+{
+    margin-top: 50px;
+    min-height: 450px;
+}
+
+.Footer .h1
+{
+    font-size: 40px;
+}
+
+.Footer ul li
+{
+    font : normal bold 20px "Arial";
+    color : #2ff2e3;
+    width: 28%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Footer .Item1 .Images
+{
+    width: 100px;
+    height: 100px;
+}
+
+
+.Footer .Item1 ul li.Images img
+{
+    width: 100%;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+.Footer .Item1 ul .Images img:hover
+{
+    opacity: 1;
+}
+
+
+.Footer .Item1 ul .Images:hover
+{
+    opacity: 1;
+}
+
+.Footer .Item2 .media .media-body
+{
+    width: 210px;
+    
+}
+
+.Footer .Item2 .media .media-body .media-heading
+{
+    font : normal bold 20px "Arial";
+}
+.Footer .Item2 .media .media-body .media-heading:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Footer .Item2 .media .media-body
+{
+    font-size: 15px;
+    
+}
+
+.Footer .Item3 img
+{
+    width:48%;
+    margin-left: 1%;
+    margin-top: 1%;
+    float: left;
+}
+
+/* End Footer */
+
+/* Start Change Theme */
+.Change
+{
+    height: 150px;
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    left: 5px;
+}
+.Change .Container .Item
+{
+    height: 150px;
+    width: 300px;
+    background-color: #b7b7b7;
+    float: left;
+    border-radius: 15px;
+    display: none;
+}
+
+
+.Change .Container .Item ul li
+{
+    display: inline-block;
+    width:25px;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.Change .Container .Item ul li.Red
+{
+    background-color: red;
+}
+
+.Change .Container .Item ul li.Aqua
+{
+    background-color: aqua;
+}
+
+.Change .Container .Item ul li.Yellow
+{
+    background-color: yellow;
+}
+
+.Change .Container .Item ul li.Pink
+{
+    background-color: deeppink;
+}
+
+.Change .Container i
+{
+    margin-left: 10px;
+    color:#9f9d9d;
+    cursor: pointer;
+    
+}
+
+/* End Change Theme */
+
+/* Start Back To Top */
+.BackToTop
+{
+    width:70px;
+    height: 60px;
+    border-radius: 15px;
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    
+    
+}
+
+.BackToTop i
+{
+    color:black;
+}
+
+
+/* End Back To Top */
+
+/* Start Screen Loading */
+.Loading
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    z-index: 9999;
+}
+
+.spinner {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  margin: 200px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+/* End Screen Loading */
+
+
+

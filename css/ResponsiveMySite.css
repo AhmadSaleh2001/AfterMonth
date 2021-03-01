@@ -1,0 +1,186 @@
+@media (max-width:767px)
+{
+        .OurNewTemplate .Container h1
+        {
+            font-size: 25px;
+        }
+    
+        .OurNewTemplate .Container p
+        {
+            font-size: 12px;
+            margin: 0px;
+            padding: 0px;
+            margin-top: 60px;
+        }
+        
+        .OurCompany .Container .Item
+        {
+            width: 200px;
+            height: 200px;
+            margin-left: 120px;
+        }
+    
+        #Testimonials h2
+        {
+            font-size: 25px;
+            margin-top: 15px;
+        }
+        #Testimonials .carousel-inner .item 
+        {
+                font-size: 15px;
+                margin-top: 50px;
+        }
+        .Plans .Container .Item
+        {
+            margin: 0px;
+            margin-left: 100px;
+            margin-bottom: 20px;
+        }
+    
+        .OurTeam .Overlay .Container .Item
+        {
+            margin: 0px;
+            margin-left: 100px;
+            margin-bottom: 20px;
+        }
+    
+        .Footer .h1
+        {
+            padding: 0px;
+            margin: 0px;
+            font-size: 30px;
+        }
+    
+        .Footer .Item1 ul li
+        {
+            font-size: 15px;
+        }
+    
+        .Footer ul .Images
+        {
+            margin: 0px;
+            padding: 0px;
+            margin-left: 40px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            
+        }
+       
+        
+        .Footer .Item2 .h1
+        {
+            margin-bottom: 20px;
+        }
+    
+        .Footer .Item2 .media
+        {
+            margin: 0px;
+            padding: 0px;
+            margin-left: 60px;
+            margin-bottom: 20px;
+        }
+    
+        .Change .Container i
+        {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+    
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+    .Container
+    {
+        width:750px;
+    }
+    
+    .OurNewTemplate .Container p
+    {
+        margin: 0px;
+        padding: 0px;
+        font-size: 17px;
+        margin-top: 50px;
+    }
+    
+    #Testimonials h2
+    {
+        font-size: 22px;
+    }
+    #Testimonials .carousel-inner .item 
+    {
+        font-size: 18px;
+    }
+    
+    .Plans .Container .Item
+    {
+        margin: 0px;
+        padding: 0px;
+        margin-left: 70px;
+        margin-bottom: 20px;
+    }
+    
+    .OurTeam .Overlay .Container .Item
+    {
+        margin: 0px;
+        padding: 0px;
+        margin-left: 70px;
+    }
+    
+    .OurCompany .Container .Item
+    {
+        width:220px;
+        height: 220px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 250px;
+        margin-bottom: 20px;
+    }
+    .Footer .h1
+    {
+        padding: 0px;
+        margin: 0px;
+        font-size: 40px;
+    }
+    
+    .Footer .Item1 ul li
+    {
+        font-size: 25px;
+    }
+    .Footer ul .Images
+    {
+        margin: 0px;
+        padding: 0px;
+        margin-left: 90px;
+        margin-bottom: 40px;
+        margin-top: 30px;
+            
+    }
+    .Footer .Item2 .media
+    {
+        margin: 0px;
+        padding: 0px;
+        margin-left: 180px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
+
+
+@media (min-width:992px)
+{
+    .Container
+    {
+        width:970px;
+    }
+}
+
+@media (min-width:1200px)
+{
+     .Container
+    {
+        width:1170px;
+        
+    }
+}
